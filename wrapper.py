@@ -6,13 +6,13 @@ def scatterplot(x,y):
     pyplot.plot(x,y,'b.')
     pyplot.xlim(min(x)-1,max(x)+1)
     pyplot.ylim(min(y)-1,max(y)+1)
-    pyplot.show()
+    pyplot.show(block=False)
 
 def barplot(labels,data):
     pos=arange(len(data))
     pyplot.xticks(pos+1.4,labels)
     pyplot.bar(pos,data)
-    pyplot.show()
+    pyplot.show(block=False)
 
 def histplot(data,bins=None,nbins=5):
     if not bins: 
@@ -48,4 +48,4 @@ def barchart(x,y,numbins=5):
 def piechart(labels,data):
     fig=pyplot.figure(figsize=(7,7))
     pyplot.pie(data,labels=labels,autopct='%1.2f%%')
-    pyplot.show()
+    pyplot.show(block=False)

@@ -13,4 +13,10 @@ Weight=[112.99, 136.49, 153.03, 142.34, 144.3, 123.3, 141.49, 136.46,
 131.35, 106.71, 124.36, 124.86, 139.67, 137.37, 106.45, 128.76, 145.68, 116.82, 
 143.62, 134.93]
 
-scatterplot(Height, Weight)
+#scatterplot(Height, Weight)
+
+#histplot(Height)
+
+#histplot(Weight)
+
+#barchart(Height, Weight)
